@@ -28,6 +28,64 @@
   color: #61dafb;
 }
 
+.photo {
+  border-radius: 50%;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5) ; 
+}
+
+.footer{
+  background-color:#0d5ddf;
+  box-shadow: 0px 0px 20px black ;  
+  text-align: center;
+ 
+}
+
+.background{
+   
+  height: auto;  
+  background-position: center; 
+  background-size:cover;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5) ;  
+}
+
+
+.portContainer{
+  display: flex;
+  
+}
+.card{
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.skillsContainer{
+  margin: 0 auto;
+  padding: 30px;
+}
+.skills{
+  width: 15%;
+  margin: 0 auto;
+  overflow-x: scroll;
+}
+
+.skillsImg{
+  width:60%; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.href{
+  color:white;
+}
+
+#icons{
+  margin: 10px ;
+  font-size: 3vw;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
